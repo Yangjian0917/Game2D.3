@@ -5,6 +5,7 @@ class Background(val screenW:Int) {
     var x1 = 0
     var x2 = screenW
 
+
     fun Roll(){
         x1 --
         if (abs(x1) > screenW){

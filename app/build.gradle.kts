@@ -7,6 +7,8 @@ android {
     namespace = "com.example.game2d"
     compileSdk = 34
 
+
+
     defaultConfig {
         applicationId = "com.example.game2d"
         minSdk = 24

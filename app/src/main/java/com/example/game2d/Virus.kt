@@ -8,6 +8,7 @@ class Virus(val screenW:Int, val screenH:Int, scale:Float) {
     var y = (screenH/2).toInt()  //病毒y軸座標
     var zoomout = (10 * scale).toInt()  //圖片內縮
 
+
     var pictNo = 0  //切換圖片
 
     fun Reset(){
